@@ -9,7 +9,7 @@ services:
       OTEL_EXPORTER_OTLP_HEADERS: "x-honeycomb-team=${HONEYCOMB_API_KEY}"
     build: ./backend-flask
     ports:
-      - "backend:4567"
+      - "4567:4567"
     volumes:
       - ./backend-flask:/backend-flask
   frontend-react-js:
@@ -17,7 +17,7 @@ services:
       REACT_APP_BACKEND_URL: "https://4567-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}"
     build: ./frontend-react-js
     ports:
-      - "frontend:3000"
+      - "3000:3000"
     volumes:
       - ./frontend-react-js:/frontend-react-js
 
