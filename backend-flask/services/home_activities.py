@@ -2,7 +2,7 @@ from datetime import datetime, timedelta, timezone
 from opentelemetry import trace
 tracer = trace.get_tracer("HomeActivities")
 class HomeActivities:
-  def run():
+  def run(cognito_user_id=None):
     with tracer.start_as_current_span("home-activities-mock-data"):
       now = datetime.now(timezone.utc).astimezone()
       results = [{
