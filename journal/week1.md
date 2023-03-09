@@ -26,4 +26,4 @@ Integrated and installed Postgres into the docker compose file.
 
 Used the 'docker export' command in Gitpod to export the container as a tar archive. Copied the exported tar archive to my local machine. Installed Docker and launched it. Used the 'docker import' command in Command Prompt to import the container from the tar archive. Used the 'docker run' command to start the new container.
 
-![Local Docker Image] 
+![Local Docker Image](assets/Week-1_DockerLocal.png) 
