@@ -10,14 +10,14 @@ Added opentelemetry instructions to requirements.txt file and all the dependenci
 
 Added AWS X-Ray to the requirements.txt file as well as dependencies to the app.py. Added xray.json file and created X-Ray group.
 
-![X-Ray Group](/assets/Week-2_Xray_Group.png)
+![X-Ray Group](journal/assets/Week-2_Xray_Group.png)
 
 ### Instrument AWS X-Ray Subsegments
 
-![X-Ray Subsegments](/assets/Week-2_Xray_Segment.png)
+![X-Ray Subsegments](journal/assets/Week-2_Xray_Segment.png)
 
 ### Configure custom logger to send to CloudWatch Logs
 
-![CloudWatch Logs](/assets/Week-2_CloudWatchLogs.png)
+![CloudWatch Logs](journal/assets/Week-2_CloudWatchLogs.png)
 
 ### Integrate Rollbar and capture and error
