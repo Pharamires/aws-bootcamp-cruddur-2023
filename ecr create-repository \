@@ -1,0 +1,33 @@
+{
+    "cluster": {
+        "clusterArn": "arn:aws:ecs:eu-west-2:590948725310:cluster/cruddur",
+        "clusterName": "cruddur",
+        "status": "PROVISIONING",
+        "registeredContainerInstancesCount": 0,
+        "runningTasksCount": 0,
+        "pendingTasksCount": 0,
+        "activeServicesCount": 0,
+        "statistics": [],
+        "tags": [],
+        "settings": [
+            {
+                "name": "containerInsights",
+                "value": "disabled"
+            }
+        ],
+        "capacityProviders": [],
+        "defaultCapacityProviderStrategy": [],
+        "attachments": [
+            {
+                "id": "8b711f3e-3697-4336-a78f-a9ab847f55cf",
+                "type": "sc",
+                "status": "ATTACHING",
+                "details": []
+            }
+        ],
+        "attachmentsStatus": "UPDATE_IN_PROGRESS",
+        "serviceConnectDefaults": {
+            "namespace": "arn:aws:servicediscovery:eu-west-2:590948725310:namespace/ns-4oljxnmkmn6whvho"
+        }
+    }
+}
