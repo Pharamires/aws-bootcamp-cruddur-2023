@@ -1,4 +1,5 @@
 tasks:
+#installs AWS-CLI
   - name: aws-cli
     env:
       AWS_CLI_AUTO_PROMPT: on-partial
@@ -8,6 +9,7 @@ tasks:
       unzip awscliv2.zip
       sudo ./aws/install
       cd $THEIA_WORKSPACE_ROOT
+      
   - name: react-js
     command: |
       cd frontend-react-js
