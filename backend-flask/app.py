@@ -71,7 +71,7 @@ tracer = trace.get_tracer(__name__)
 
 app = Flask(__name__)
 
-cognito_jwt_token = CognitoJwtToken(
+cognito_jwttoken = CognitoJwtToken(
   user_pool_id=os.getenv("AWS_COGNITO_USER_POOL_ID"), 
   user_pool_client_id=os.getenv("AWS_COGNITO_USER_POOL_CLIENT_ID"),
   region=os.getenv("AWS_DEFAULT_REGION")
@@ -217,7 +217,7 @@ def data_create_message():
 def data_home():
   access_token = extract_access_token(request.headers)
   try:
-    claims = cognito_jwt_token.verify(access_token)
+    claims = cognito_jwttoken.verify(access_token)
     # authenicatied request
     app.logger.debug("authenicated")
     app.logger.debug(claims)
