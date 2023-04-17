@@ -44,8 +44,8 @@
           {"name": "OTEL_EXPORTER_OTLP_ENDPOINT", "value": "https://api.honeycomb.io"},
           {"name": "AWS_COGNITO_USER_POOL_ID", "value": "eu-west-2_FaMT4YnNA"},
           {"name": "AWS_COGNITO_USER_POOL_CLIENT_ID", "value": "1elmmopte8gmev71dpoksp4qlk"},
-          {"name": "FRONTEND_URL", "value": "*"},
-          {"name": "BACKEND_URL", "value": "*"},
+          {"name": "FRONTEND_URL", "value": "https://pharamires.co.uk"},
+          {"name": "BACKEND_URL", "value": "https://api.pharamires.co.uk"},
           {"name": "AWS_DEFAULT_REGION", "value": "eu-west-2"}
         ],
         "secrets": [
